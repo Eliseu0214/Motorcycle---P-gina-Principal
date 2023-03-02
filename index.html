@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="./img/logo-icon.png" type="image/png"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!---------------------------------------------------------------------------------------------------->
+
+    <title>Motorcycle</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white-tertiary">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+      <img src="./img/Logo.PNG" alt="Logo" width="100rem" height="80rem" class="d-inline-block align-text-top">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="bi bi-list"></span>
+    </button>
+    <!--AQUI ESTA A NAVBAR, DEU PARA COLOCAR ELA PARA O CANTO SUPERIOR ESQUERDO, MAS NAO DEU PRA FAZER FIEL AO DESIGNER, MAS ACHO QUE FICOU ACEITAVEL, FALTA FAZER A MUDANCAS NAS CORES AINDA-->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-warning text-sm-center" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning text-sm-center" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning text-sm-center" href="#">Customs</a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link text-warning text-dark text-sm-center" href="#">Events</a>
+		  </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <hr style="background-color: #f29544; border-width: 3pt;" >
+    <!-- Main -->
+    <div class="hero-img mx-auto text-center">
+        <img class="img-responsive img-fluid" src="./img/Home/Banner.jpg" style="height: 80vh; width: 75vw; object-fit: cover;">
+    
+<style>
+style {
+	background: #ebebeb;
+	font-family: "Open Sans", sans-serif;
+}
+.carousel {
+	margin: 30px auto 60px;
+	padding: 0 80px;
+}
+.carousel .carousel-item {
+	text-align: center;
+	overflow: hidden;
+}
+.carousel .carousel-item h4 {
+	font-family: 'Varela Round', sans-serif;
+}
+.carousel .carousel-item img {
+	max-width: 100%;
+	display: inline-block;
+}
+.carousel .carousel-item .btn {
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	background: black;
+	padding: 6px 15px;
+	margin-top: 5px;
+}
+.carousel .carousel-item .btn:hover {
+	background: #8c5bff;
+}
+.carousel .carousel-item .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	margin: 5px;
+	text-align: left;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.1);   
+}
+.carousel .thumb-content {
+	padding: 15px;
+	font-size: 13px;
+}
+.carousel-control-prev, .carousel-control-next {
+	height: 44px;
+	width: 44px;
+	background: none;	
+	margin: auto 0;
+	border-radius: 50%;
+	border: 3px solid rgba(0, 0, 0, 0.8);
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -19px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev i {
+	margin-left: -3px;
+}
+.carousel-control-next i {
+	margin-right: -3px;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 4px;
+	border: none;
+}
+.carousel-indicators li {	
+	background: #ababab;
+}
+.carousel-indicators li.active {	
+	background: #555;
+}
+</style>
+<div class="style">
+<div class="container-xl">
+	<div class="row">
+		<div class="col-md-10 mx-auto">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+			<!-- Indicadores do Carousel -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Wrapper para o Carrosel de Itens --- essa função serve como um "embrulho", onde colocamos vários contéudos para criar um laço repetitivo. -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-1.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 01</h4>
+									<p>Esta moto é uma máquina poderosa de duas rodas, com design moderno e desempenho excepcional para uma pilotagem emocionante e dinâmica.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-2.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 02</h4>
+									<p>Esta motocicleta é uma combinação perfeita de design, tecnologia e desempenho, tornando-se uma escolha versátil e elegante.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>				
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-3.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 03</h4>
+									<p>Com um visual moderno e uma condução suave, esta moto é ideal para quem busca estilo e conforto na estrada.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>					
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-4.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 04</h4>
+									<p>Esta motocicleta é projetada para oferecer um desempenho excepcional, além de um design impressionante que chama a atenção.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-5.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 05</h4>
+									<p>Se você procura uma moto que tenha tanto estilo quanto potência, esta é a escolha certa para você.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-1.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 06</h4>
+									<p>A moto preta é um veículo de duas rodas elegante e sofisticado, capaz de transmitir uma sensação de poder e segurança nas estradas.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>					
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-2.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 07</h4>
+									<p>Com uma construção robusta e um motor potente, essa moto é perfeita para enfrentar qualquer terreno com facilidade e segurança.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-3.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 08</h4>
+									<p>Esta moto é a escolha ideal para quem busca desempenho excepcional e design moderno em um só veículo.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/Home/PT-4.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Moto 09</h4>
+									<p>Essa moto oferece uma pilotagem suave e precisa, combinando conforto e desempenho de alto nível em um design moderno e arrojado.</p>
+									<a href="#" class="btn btn-primary">More <i class="fa fa-angle-right"></i></a>
+								</div>						
+							</div>					
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Controles do Carrosel -->
+			<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!--/Main-- --Contéudo Principal-->
+
+    <hr style="background-color: #f29544; border-width: 3pt;" class="mb-0">
+
+    <!-- Footer-- --Rodapé-->
+   <div class="text-center p-3" style="background-color: #f2f2f2">
+    <div class="container my-5">
+
+      <footer class="text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row my-4">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+    
+              <div class=" col-8 d-flex align-items-center justify-content-center mb-4 mx-auto">
+                <img src="./img/Logo.PNG" width="130%" height="100%" alt="Logo" style="mix-blend-mode: multiply;"/>
+              </div>
+    
+            </div>
+            <!--Grid column-- --Modo de trabalhar com linhas e colunas-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+    
+              <ul class="list-unstyled">
+                <h5 class="text-uppercase mb-4">Início</h5>
+                <li  class="mb-2">
+                  <a href="#" style="color: #f29544;" class="text-decoration-none text-warning">Home</a>
+                </li>
+                <li  class="mb-2">
+                  <a href="#" style="color: #f29544;"  class="text-decoration-none text-warning">Products</a>
+                </li>
+                <li  class="mb-2">
+                  <a href="#" style="color: #f29544;"  class="text-decoration-none text-warning">Customs</a>
+                </li>
+                <li  class="mb-2">
+                  <a href="#" style="color: #f29544;"  class="text-decoration-none text-warning">Events</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Sobre-nós</h5>
+    
+              <ul class="list-unstyled">
+                
+                <li  class="mb-2">
+                  <a href="#" style="color: #f29544;"  class="">Nossa História</a>
+                </li>
+                  <li  class="mb-2">
+                    <a href="#" style="color: #f29544;"  class="">Contato</a>
+                  </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mx-0">
+              <a href="https://www.facebook.com/bruno.vercosa.7" target="_blank">
+             <img src="./img/icons/Facebook.png" alt="facebook" class="img-fluid img-responsive" style="width: 15%;" >
+              </a>
+
+              <a href="https://api.whatsapp.com/send?phone=556499897965&text=Ol%C3%A1,%20poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20cat%C3%A1logo%20da%20Motorcycle" target="_blank">
+                <img src="./img//icons/Whatsapp.png" alt="Whatsapp" class="img-fluid img-responsive" style="width: 15%;" >
+                 </a>
+
+                 <a href="https://www.instagram.com/brunonvercosa/?next=%2F" target="_blank">
+                  <img src="./img/icons/Instagram.png" alt="Instagram" class="img-fluid img-responsive" style="width: 15%;" >
+                   </a>
+                   <br>
+                   <button class="my-5 p-4 mx-3-n5 " style="border-radius:15rem; background-color: #f29544; width: 15rem;">
+                    <i class="bi bi-headset">Contato</i>
+                   </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+       
+          © 2023 Copyright:
+          <a class="" style="color: black;" href="#">Motorcycle</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+    </div>
+
+    <!-- /Footer -->
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!--scripts Biblioteca Jquery  e stackpack bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
